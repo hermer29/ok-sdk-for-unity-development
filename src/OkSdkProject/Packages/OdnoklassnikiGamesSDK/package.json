@@ -1,0 +1,9 @@
+{
+  "name": "com.immortalsgames.odnoklassnikigamessdk",
+  "version": "1.0.0",
+  "displayName": "Odnoklassniki Games SDK",
+  "type": "library",
+  "description": "SDK for working with games on the Odnoklassniki platform",
+  "license": "MIT",
+  "samples": []
+}
