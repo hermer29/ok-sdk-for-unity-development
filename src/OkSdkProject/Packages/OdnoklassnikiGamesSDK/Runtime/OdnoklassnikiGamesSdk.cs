@@ -42,8 +42,6 @@ namespace OdnoklassnikiGamesSDK
 
             while (!IsInitialized)
                 yield return null;
-                
-            AdvertisingLoader.NotifyInitializationCompleted();
         }
 
         [DllImport("__Internal")]

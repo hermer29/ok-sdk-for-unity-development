@@ -68,7 +68,6 @@ namespace OdnoklassnikiGamesSDK.Advertising
                 Debug.Log($"{nameof(VideoAd)}.{nameof(OnShowAdSuccessCallback)} invoked");
 
             s_onShowAdSuccessCallback?.Invoke();
-            AdvertisingLoader.s_advertisingLoaded = false;
         }
 
         [MonoPInvokeCallback(typeof(Action<string>))]
